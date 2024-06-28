@@ -12,6 +12,8 @@
 		EC02CA932C2D1FCA00899E80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC02CA922C2D1FCA00899E80 /* Assets.xcassets */; };
 		EC02CA962C2D1FCA00899E80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC02CA952C2D1FCA00899E80 /* Preview Assets.xcassets */; };
 		EC02CA9D2C2D1FE500899E80 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02CA9C2C2D1FE500899E80 /* Log.swift */; };
+		EC3EFBF92C2D63050014FA4D /* Fido2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3EFBF82C2D63050014FA4D /* Fido2View.swift */; };
+		EC3EFBFB2C2D65570014FA4D /* Fido2ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3EFBFA2C2D65570014FA4D /* Fido2ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		EC02CA9C2C2D1FE500899E80 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		EC02CA9E2C2D225100899E80 /* LoginWithPassKeyAndFaceId.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoginWithPassKeyAndFaceId.entitlements; sourceTree = "<group>"; };
 		EC02CA9F2C2D28D800899E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EC3EFBF82C2D63050014FA4D /* Fido2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fido2View.swift; sourceTree = "<group>"; };
+		EC3EFBFA2C2D65570014FA4D /* Fido2ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fido2ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				EC02CA9E2C2D225100899E80 /* LoginWithPassKeyAndFaceId.entitlements */,
 				EC02CA9C2C2D1FE500899E80 /* Log.swift */,
 				EC02CA8E2C2D1FC700899E80 /* LoginWithPassKeyAndFaceIdApp.swift */,
+				EC3EFBF82C2D63050014FA4D /* Fido2View.swift */,
+				EC3EFBFA2C2D65570014FA4D /* Fido2ViewModel.swift */,
 				EC02CA902C2D1FC700899E80 /* ContentView.swift */,
 				EC02CA922C2D1FCA00899E80 /* Assets.xcassets */,
 				EC02CA942C2D1FCA00899E80 /* Preview Content */,
@@ -145,7 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC02CA912C2D1FC700899E80 /* ContentView.swift in Sources */,
+				EC3EFBF92C2D63050014FA4D /* Fido2View.swift in Sources */,
 				EC02CA8F2C2D1FC700899E80 /* LoginWithPassKeyAndFaceIdApp.swift in Sources */,
+				EC3EFBFB2C2D65570014FA4D /* Fido2ViewModel.swift in Sources */,
 				EC02CA9D2C2D1FE500899E80 /* Log.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

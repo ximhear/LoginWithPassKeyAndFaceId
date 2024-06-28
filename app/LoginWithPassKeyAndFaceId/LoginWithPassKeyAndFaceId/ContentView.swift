@@ -66,7 +66,7 @@ class AuthViewModel: NSObject, ObservableObject {
     @Published var isAuthenticated = false
     private var cancellables = Set<AnyCancellable>()
     private var baseApiUrl = "https://funky-largely-ewe.ngrok-free.app"
-    let userId = "user3"
+    let userId = "user4"
     
     var accessToken: String? {
         get { UserDefaults.standard.string(forKey: "accessToken") }
